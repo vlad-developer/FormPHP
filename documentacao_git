@@ -1,0 +1,43 @@
+Principais Comandos Git 
+
+Configuração Inicial
+- git config --global user.name "Seu Nome" - Define seu nome de usuário.
+- git config --global user.email "seu@email.com" - Define seu e-mail.
+- git config --list - Mostra as configurações atuais.
+
+Criação e Inicialização de Repositórios
+- git init - Inicializa um repositório Git na pasta atual.
+- git clone <url> - Clona um repositório remoto para sua máquina.,
+
+Trabalhando com Arquivos
+- git status - Mostra o estado atual dos arquivos.
+- git add <arquivo> - Adiciona um arquivo à área de stage.
+- git add . - Adiciona todos os arquivos modificados.
+- git commit -m "mensagem" - Salva as alterações com uma mensagem.
+- git rm <arquivo> - Remove um arquivo do repositório.
+
+Histórico e Log
+- git log - Mostra o histórico de commits.
+- git log --oneline - Exibe o histórico resumido.
+- git diff - Mostra diferenças entre arquivos modificados.
+
+Branches (Ramificações)
+- git branch - Lista as branches.
+- git branch <nome> - Cria nova branch.
+- git checkout <branch> - Muda para a branch.
+- git checkout -b <branch> - Cria e muda para nova branch.
+- git merge <branch> - Mescla branch na atual.
+- git branch -d <branch> - Deleta uma branch local.
+
+Repositórios Remotos
+- git remote add origin <url> - Conecta repositório local ao remoto.
+- git push -u origin main - Envia branch principal para o remoto.
+- git push - Envia alterações para o repositório remoto.
+- git pull - Atualiza com dados do remoto.
+- git fetch - Baixa atualizações do remoto (sem mesclar).
+
+Outros Comandos Úteis
+- git reset <arquivo> - Remove arquivo da área de stage.
+- git reset --hard - Descarta alterações não commitadas.
+- git stash - Salva temporariamente alterações.
+- git stash apply - Recupera alterações salvas.
