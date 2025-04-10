@@ -11,7 +11,7 @@ Criação e Inicialização de Repositórios
 
 Trabalhando com Arquivos
 - git status - Mostra o estado atual dos arquivos.
-- git add <arquivo> - Adiciona um arquivo à área de stage.
+- git add <nome do arquivo> - Adiciona um arquivo à área de stage.
 - git add . - Adiciona todos os arquivos modificados.
 - git commit -m "mensagem" - Salva as alterações com uma mensagem.
 - git rm <arquivo> - Remove um arquivo do repositório.
@@ -24,10 +24,10 @@ Histórico e Log
 Branches (Ramificações)
 - git branch - Lista as branches.
 - git branch <nome> - Cria nova branch.
-- git checkout <branch> - Muda para a branch.
+- git checkout <nome da branch> - Muda para a branch.
 - git checkout -b <branch> - Cria e muda para nova branch.
-- git merge <branch> - Mescla branch na atual.
-- git branch -d <branch> - Deleta uma branch local.
+- git merge <nome da branch> - Mescla branch na atual.
+- git branch -d <nome da branch> - Deleta uma branch local.
 
 Repositórios Remotos
 - git remote add origin <url> - Conecta repositório local ao remoto.
